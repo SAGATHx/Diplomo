@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__nav p {
+  padding-right: 40px;
+}
+.header__tel a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.header__tel {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__button {
+  border: 1px solid #3a83e827;
+  padding: 12px 29px;
+}
+.header__button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+.header-about {
+  background-size: cover;
+  background-image: url(/img/Header__about-photo.png);
+  background-repeat: no-repeat;
+}
+.header__about {
+  display: flex;
+  min-height: 738px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.header__about-text {
+  color: #fff;
+  max-width: 609px;
+  margin-bottom: 40px;
+  margin-top: 178px;
+}
+.header__about-button a {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c01b2f;
+  padding: 19px 50px;
+  margin-bottom: 100px;
+}
+.header__about-text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 69px;
+  margin-bottom: 40px;
+}
+.header__about-text p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+}
+.header__about-social {
+  display: block;
+  margin-bottom: 35px;
+}
